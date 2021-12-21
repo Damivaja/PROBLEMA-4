@@ -1,0 +1,26 @@
+// hola que tal, tenga un saludo cordial, este es un programa creado por Damaris Valencia Jaen//
+# incluye < iostream >
+usando el  espacio de nombres  std ;
+int  main ()
+{
+     flotar x, c = 0 , l = 30 , Ea = 0 , Er = 0 ;
+     hacer {
+            cout << " Ingrese el promedio: " ;
+			cin >> x;
+            c = c + 1 ;
+            si (x> 7 ) {
+				Ea = Ea + x;
+			} más {
+				si (x < 5 ) {
+					Er = Er + x;
+	} más {}
+	}
+	} mientras (c <l);
+    cout << " aprueban: " << Ea << endl;
+    cout << " reprueban: " << Er << endl;
+    return ( 0 );
+}
+© 2021 GitHub, Inc.
+Condiciones
+Intimidad
+Seguridad
